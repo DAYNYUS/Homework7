@@ -57,7 +57,7 @@ if (row < 0 | row > array.GetLength(0) - 1 | col < 0 | col > array.GetLength(1) 
 }
 else
 {
-    Console.WriteLine("Значение элемента массива = {0}", array[row, col]);
+    Console.WriteLine($"Значение элемента массива = {array[row, col]}");
 }
 
 
@@ -78,7 +78,7 @@ void PrintArray(int[,] array)
     {
         for(int j = 0; j < array.GetLength(1); j++)
         {
-             Console.Write("{0} ", array[i, j]);
+             Console.Write(array[i, j] + " ");
         }
         Console.WriteLine();
     }
