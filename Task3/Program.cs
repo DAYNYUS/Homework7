@@ -7,10 +7,10 @@
 Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.*/
 
 Console.WriteLine("Введите количество строк m: ");
-int n = Convert.ToInt32(Console.ReadLine());
+int m = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Введите количество столбцов n: ");
-int m = Convert.ToInt32(Console.ReadLine());
+int n = Convert.ToInt32(Console.ReadLine());
 
 int[,] array = new int[m, n];
 
