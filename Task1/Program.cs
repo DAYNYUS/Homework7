@@ -5,12 +5,12 @@ m = 3, n = 4.
 8 7,8 -7,1 9*/
 
 Console.WriteLine("Введите количество строк m: ");
-int n = Convert.ToInt32(Console.ReadLine());
-
-Console.WriteLine("Введите количество столбцов n: ");
 int m = Convert.ToInt32(Console.ReadLine());
 
-double [,] numbers = new double [n,m];
+Console.WriteLine("Введите количество столбцов n: ");
+int n = Convert.ToInt32(Console.ReadLine());
+
+double [,] numbers = new double [m,n];
 
 FillArrayRandomNumbers(numbers);
 PrintArray(numbers);
